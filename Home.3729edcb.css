@@ -1,0 +1,924 @@
+.main-body {
+  font-family: Helvetica !important;
+  overflow-x: hidden;
+  background: #000;
+  color: #fff;
+}
+body.modal-open .all-content {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+#ModalLabel {
+  font-size: medium;
+  color: #000;
+}
+.btn-close {
+  color: black;
+}
+
+
+#Modal {
+  color: #000000;
+  max-height: fit-content;
+}
+.modal-body {
+  width: 100%;
+}
+.main-body .bold {
+  font-weight: 700;
+}
+.main-body .h1-xl {
+  font-size: 75px;
+}
+.main-body .h2-xl {
+  font-size: 55px;
+}
+.main-body .h3-xl {
+  font-size: 50px;
+}
+.main-body .dFlex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .vertical-space-long {
+  margin-top: 10%;
+}
+
+.modal-header .btn-close:focus {
+  box-shadow: none;
+}
+
+.modal-title {
+  /*background-color: #f5a65c;*/
+  background-color: #f77802;
+  padding: 2%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #f77802;
+}
+.main-body .vertical-space-medium {
+  margin-top: 8%;
+}
+.main-body .vertical-space-short {
+  margin-top: 5%;
+}
+.main-body .white {
+  background: #fff;
+  color: #000;
+}
+.main-body .orange {
+  color: #f77802;
+}
+.main-body .section-1 {
+  padding: 80px 10px;
+}
+.main-body .section-1 h3 {
+  font-size: 54px;
+}
+.main-body .section-1 .orange-heading-margin {
+  margin-top: 3rem;
+}
+.main-body .section-1 .capsule-padding {
+  padding: 7.5rem 0 8rem;
+}
+.main-body .section-1 .text-and-arrow,
+.main-body .section-1 .text-and-arrow .row-margin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .section-1 .text-and-arrow .row-margin {
+  margin-left: 9%;
+}
+.main-body .section-1 .orange-border {
+  border: 8px solid #f77802;
+  border-radius: 500px;
+  width: max-content;
+  padding: 30px 20px 20px;
+  margin: auto;
+}
+.main-body .section-1 .orange-arrow {
+  margin-top: -100px;
+  height: 150px;
+  width: 180px;
+}
+.main-body .section-1 h4 {
+  font-size: 48px;
+  line-height: 4rem;
+  color: #fffaf0;
+}
+.main-body .section-1 ul {
+  list-style-type: square;
+  font-size: 40px;
+}
+.main-body .section-1 li::marker {
+  color: #f77802;
+}
+.main-body .section-1 .Betrouwbaarnetwerk img {
+  width: 80%;
+  height: 100%;
+}
+.main-body .section-2 {
+  margin-top: 2%;
+}
+.main-body .section-2 .heading {
+  padding: 0 150px;
+  margin-left: 5%;
+}
+.main-body .section-2 .card {
+  border: 5px solid #fff;
+}
+.main-body .section-2 .card-header {
+  color: #f77802;
+  background: #000;
+  border: 5px solid #fff;
+  font-size: 40px;
+  font-weight: 700;
+  height: 120px;
+  position: absolute;
+  top: -120px;
+  width: 100%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.main-body .section-2 .card-body {
+  color: #000;
+  font-size: 32px;
+  text-align: justify;
+  padding: 20px;
+}
+.main-body .section-2 .card-extra-margin {
+  margin-top: -85px;
+}
+.main-body .section-2 .learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+.main-body .section-2 .learn-more .row-margin {
+  margin-left: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .section-2 .learn-more .arrow-forward {
+  height: 50%;
+  width: 55%;
+  margin-left: -7px;
+  margin-top: -10px;
+}
+.main-body .section-3 .grid-image {
+  width: 50%;
+  height: 60%;
+}
+.main-body .section-3 .heading-orange-werket {
+  text-align: center;
+}
+.main-body .section-4 h1 {
+  font-size: 55px;
+}
+.main-body .section-4 h2 {
+  font-size: 37px;
+}
+.main-body .section-4 .learn-more-grid {
+  padding: 4rem 0;
+}
+.main-body .section-4 .learn-more .row-margin {
+  display: inline-flex;
+}
+.main-body .section-4 .learn-more .text-margin {
+  margin-left: 1rem;
+}
+.main-body .section-4 .learn-more .arrow-forward {
+  width: 20px;
+  height: 30px;
+  margin-top: 0.3rem;
+}
+.main-body .section-4 .text-and-arrow,
+.main-body .section-4 .text-and-arrow .row-margin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .section-4 .text-and-arrow .row-margin {
+  margin-left: -10rem;
+}
+.main-body .section-4 .capsule-padding {
+  padding: 5rem 0 10rem;
+}
+.main-body .section-4 .orange-border {
+  border: 8px solid #f77802;
+  border-radius: 500px;
+  width: max-content;
+  padding: 25px 20px 15px;
+  margin: auto;
+}
+
+.next-btn {
+  background: #f77802 !important;
+  /*box-shadow: 0px 8px 15px #f77802;*/
+}
+.next-btn:hover,
+.next-btn:focus {
+  background: #f77802;
+  box-shadow: none;
+}
+
+.back-btn {
+  background: black;
+}
+
+.back-btn:hover,
+.back-btn:focus {
+  background: black;
+  box-shadow: none;
+}
+
+.main-body .section-4 .orange-arrow {
+  margin-top: -100px;
+  height: 150px;
+  width: 180px;
+}
+.main-body .section-5 .cover-image {
+  width: 100%;
+}
+.main-body .section-6 .padding-title {
+  padding: 10rem 0 5rem 25rem;
+}
+.main-body .section-6 .padding-body {
+  padding-left: 25rem;
+}
+.main-body .section-6 .padding-body h3 {
+  color: #f5f5f5;
+  opacity: 0.95;
+  font-size: 46px;
+  font-weight: 700;
+}
+.main-body .section-6 .padding-list {
+  padding-top: 7rem;
+  padding-left: 23rem;
+}
+.main-body .section-6 h1 {
+  font-size: 64px;
+}
+.main-body .section-6 h2 {
+  font-size: 62px;
+}
+.main-body .section-6 h3 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.main-body .section-6 ul {
+  list-style-type: square;
+  font-size: 40px;
+}
+.main-body .section-6 li::marker {
+  color: #f77802;
+}
+.main-body .section-6 h4 {
+  font-size: 48px;
+  line-height: 4rem;
+  color: #fffaf0;
+}
+.main-body .section-6 .card {
+  border: 5px solid #fff;
+  border-radius: 20px;
+}
+.main-body .section-6 .card-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.main-body .section-6 .card-header {
+  color: #f77802;
+  background: #000;
+  font-size: 22px;
+  padding: 20px;
+  font-weight: 700;
+}
+.main-body .section-6 .card-body {
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 40px 7px 20px 0;
+  height: 10rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.main-body .section-6 .card1-body-padding {
+  padding-left: 4.5rem;
+}
+.main-body .section-6 .card2-body-padding {
+  padding-left: 2.7rem;
+}
+.main-body .section-6 .card3-body-padding {
+  padding-top: 4rem;
+  padding-left: 6rem;
+}
+.main-body .section-6 .text-and-arrow,
+.main-body .section-6 .text-and-arrow .row-margin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .section-6 .text-and-arrow .row-margin {
+  margin-left: 9%;
+}
+.main-body .section-6 .capsule-padding {
+  padding: 7.5rem 0 8rem;
+}
+.main-body .section-6 .orange-border {
+  border: 8px solid #f77802;
+  border-radius: 500px;
+  width: max-content;
+  padding: 30px 20px 20px;
+  margin: auto;
+}
+.main-body .section-6 .orange-arrow {
+  margin-top: -100px;
+  height: 150px;
+  width: 180px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .main-body .h1-xl {
+    font-size: 46px;
+  }
+  .main-body .h2-xl {
+    font-size: 37px;
+  }
+  .main-body .section-1 {
+    padding: 55px 10px;
+  }
+  .main-body .section-1 h3 {
+    font-size: 35px;
+  }
+  .main-body .section-1 .capsule-padding {
+    padding: 5.5rem 0 7rem;
+  }
+  .main-body .section-1 .orange-border {
+    border: 6px solid #f77802;
+    padding: 18px 20px 10px;
+  }
+  .main-body .section-1 .orange-arrow {
+    width: 125px;
+    height: 110px;
+    margin-top: -80px;
+  }
+  .main-body .section-1 h4 {
+    font-size: 32px;
+    line-height: 2.7rem;
+  }
+  .main-body .section-1 ul {
+    font-size: 33px;
+  }
+  .main-body .section-1 .Betrouwbaarnetwerk img {
+    width: 85%;
+  }
+  .main-body .section-2 {
+    margin-top: 0;
+  }
+  .main-body .section-2 .heading {
+    padding: 0 95px;
+  }
+  .main-body .section-2 .vertical-space-medium {
+    margin-top: 9%;
+  }
+  .main-body .section-2 .card-header {
+    border: 4px solid #fff;
+    font-size: 25px;
+    height: 95px;
+    top: -95px;
+  }
+  .main-body .section-2 .card-body {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  .main-body .section-2 .learn-more {
+    padding: 3rem 0;
+  }
+  .main-body .section-2 .learn-more h3 {
+    font-size: 17.5px;
+    text-align: right;
+  }
+  .main-body .section-2 .learn-more .row-margin {
+    margin-left: -10px;
+  }
+  .main-body .section-2 .learn-more .arrow-forward {
+    width: 75%;
+    margin-left: -20px;
+  }
+  .main-body .section-3 .heading-orange-werket {
+    font-size: 22px;
+  }
+  .main-body .section-4 .learn-more-grid {
+    padding: 3rem 0;
+  }
+  .main-body .section-4 h2 {
+    font-size: 26px;
+  }
+  .main-body .section-4 .learn-more .text-margin {
+    margin-left: 0.5rem;
+  }
+  .main-body .section-4 .learn-more .arrow-forward {
+    width: 13px;
+    height: 20px;
+  }
+  .main-body .section-4 .capsule-padding {
+    padding: 3rem 0 7.5rem;
+  }
+  .main-body .section-4 .text-and-arrow h1 {
+    font-size: 35px;
+  }
+  .main-body .section-4 .orange-border {
+    border: 6px solid #f77802;
+    padding: 15px 20px 10px;
+  }
+  .main-body .section-4 .orange-arrow {
+    width: 130px;
+    height: 90px;
+    margin-top: -70px;
+  }
+  .main-body .section-6 .padding-title {
+    padding: 7rem 0 5rem 17rem;
+  }
+  .main-body .section-6 .padding-body {
+    padding-left: 17rem;
+  }
+  .main-body .section-6 .padding-body h3 {
+    font-size: 30px;
+  }
+  .main-body .section-6 .padding-list {
+    padding-top: 5rem;
+    padding-left: 15rem;
+  }
+  .main-body .section-6 h1 {
+    font-size: 42px;
+  }
+  .main-body .section-6 h2 {
+    font-size: 37px;
+  }
+  .main-body .section-6 h3 {
+    font-size: 30px;
+  }
+  .main-body .section-6 ul {
+    font-size: 33px;
+  }
+  .main-body .section-6 h4 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  .main-body .section-6 .card {
+    border: 4px solid #fff;
+  }
+  .main-body .section-6 .card-header {
+    font-size: 14px;
+    padding: 17px;
+  }
+  .main-body .section-6 .card-body {
+    font-size: 21px;
+    padding: 0 10px 20px 0;
+    height: 5rem;
+  }
+  .main-body .section-6 .card1-body-padding {
+    padding-left: 2.7rem;
+  }
+  .main-body .section-6 .card2-body-padding {
+    padding-left: 1.3rem;
+  }
+  .main-body .section-6 .card3-body-padding {
+    padding-top: 1rem;
+    padding-left: 3.6rem;
+  }
+  .main-body .section-6 .capsule-padding {
+    padding: 5.5rem 0 7rem;
+  }
+  .main-body .section-6 .text-and-arrow h3 {
+    font-size: 33px;
+  }
+  .main-body .section-6 .orange-border {
+    border: 6px solid #f77802;
+    padding: 18px 20px 10px;
+  }
+  .main-body .section-6 .orange-arrow {
+    width: 125px;
+    height: 110px;
+    margin-top: -80px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1150px) {
+  .main-body .h1-xl {
+    font-size: 27px;
+  }
+  .main-body .h2-xl {
+    font-size: 25px;
+  }
+  .main-body .section-1 {
+    padding: 25px 10px;
+  }
+  .main-body .section-1 .orange-heading-margin {
+    margin-top: 2rem;
+  }
+  .main-body .section-1 h3 {
+    font-size: 23px;
+  }
+  .main-body .section-1 .capsule-padding {
+    padding: 3rem 0 5rem;
+  }
+  .main-body .section-1 .orange-border {
+    border: 4px solid #f77802;
+    padding: 11px 13px 7px;
+  }
+  .main-body .section-1 .orange-arrow {
+    width: 85px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: -10px;
+  }
+  .main-body .section-1 h4 {
+    font-size: 21px;
+    line-height: 1.6rem;
+  }
+  .main-body .section-1 ul {
+    font-size: 20px;
+  }
+  .main-body .section-1 .Betrouwbaarnetwerk img {
+    width: 85%;
+  }
+  .main-body .section-2 {
+    margin-top: 0;
+  }
+  .main-body .section-2 .heading {
+    padding: 0 65px;
+  }
+  .main-body .section-2 .vertical-space-medium {
+    margin-top: 9%;
+  }
+  .main-body .section-2 .card-header {
+    border: 3px solid #fff;
+    font-size: 12.5px;
+    height: 50px;
+    top: -52px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .main-body .section-2 .card-body {
+    font-size: 13px;
+    line-height: 1.3;
+    padding: 10px;
+  }
+  .main-body .section-2 .learn-more {
+    padding: 2rem 0;
+  }
+  .main-body .section-2 .learn-more h3 {
+    font-size: 8.5px;
+    text-align: right;
+  }
+  .main-body .section-2 .learn-more .row-margin {
+    margin-left: -6px;
+  }
+  .main-body .section-2 .learn-more .arrow-forward {
+    width: 10px;
+    height: 10px;
+    margin-left: -20px;
+  }
+  .main-body .section-3 .grid-image {
+    width: 70%;
+  }
+  .main-body .section-3 .heading-orange-werket {
+    font-size: 14px;
+  }
+  .main-body .section-4 .learn-more-grid {
+    padding: 1.5rem 0;
+  }
+  .main-body .section-4 h2 {
+    font-size: 16px;
+  }
+  .main-body .section-4 .learn-more .text-margin {
+    margin-left: 0.5rem;
+  }
+  .main-body .section-4 .learn-more .arrow-forward {
+    width: 10px;
+    height: 14px;
+    margin-top: 1px;
+  }
+  .main-body .section-4 .capsule-padding {
+    padding: 2rem 0 4.5rem;
+  }
+  .main-body .section-4 .text-and-arrow h1 {
+    font-size: 23px;
+  }
+  .main-body .section-4 .text-and-arrow .row-margin {
+    margin-right: -75px;
+  }
+  .main-body .section-4 .orange-border {
+    border: 4px solid #f77802;
+    padding: 11px 13px 7px;
+  }
+  .main-body .section-4 .orange-arrow {
+    width: 85px;
+    height: 70px;
+    margin-top: -50px;
+  }
+  .main-body .section-6 .padding-title {
+    padding: 4.5rem 0 1.5rem 10.6rem;
+  }
+  .main-body .section-6 .padding-body {
+    padding-left: 10.6rem;
+  }
+  .main-body .section-6 .padding-body h3 {
+    font-size: 18px;
+  }
+  .main-body .section-6 .padding-list {
+    padding-top: 3rem;
+    padding-left: 8.3rem;
+  }
+  .main-body .section-6 h1 {
+    font-size: 27px;
+  }
+  .main-body .section-6 h2 {
+    font-size: 24px;
+  }
+  .main-body .section-6 h3 {
+    font-size: 18px;
+  }
+  .main-body .section-6 ul {
+    font-size: 20px;
+  }
+  .main-body .section-6 h4 {
+    font-size: 21px;
+    line-height: 1.2;
+  }
+  .main-body .section-6 .card {
+    border: 3px solid #fff;
+  }
+  .main-body .section-6 .card-header {
+    font-size: 9.5px;
+    padding: 10px;
+  }
+  .main-body .section-6 .card-body {
+    font-size: 12.5px;
+    padding: 0 10px 20px 0;
+    height: 3rem;
+  }
+  .main-body .section-6 .card1-body-padding {
+    padding-left: 2.5rem;
+  }
+  .main-body .section-6 .card2-body-padding {
+    padding-left: 1.3rem;
+  }
+  .main-body .section-6 .card3-body-padding {
+    padding-top: 0.7rem;
+    padding-left: 2.6rem;
+  }
+  .main-body .section-6 .capsule-padding {
+    padding: 3rem 0;
+  }
+  .main-body .section-6 .text-and-arrow h3 {
+    font-size: 23px;
+  }
+  .main-body .section-6 .orange-border {
+    border: 4px solid #f77802;
+    padding: 11px 13px 7px;
+  }
+  .main-body .section-6 .orange-arrow {
+    width: 85px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: -8px;
+  }
+}
+@media only screen and (min-width: 751px) {
+  .web-hidden {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .section-2 .learn-more h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+  .main-body .h1-xl {
+    font-size: 22px;
+  }
+  .main-body .h2-xl {
+    font-size: 25px;
+  }
+  .main-body .section-1 {
+    padding: 15px 0;
+  }
+  .main-body .section-1 .orange-heading-margin {
+    margin-top: 1rem;
+  }
+  .main-body .section-1 .capsule-padding {
+    padding: 3rem 0 3.5rem;
+  }
+  .main-body .section-1 h3 {
+    font-size: 18px;
+  }
+  .main-body .section-1 .text-and-arrow .row-margin {
+    margin: auto;
+  }
+  .main-body .section-1 .orange-border {
+    border: 4px solid #f77802;
+    padding: 22px 5px;
+    color: #fff;
+    background: #f77802;
+    border-radius: 20px;
+  }
+  .main-body .section-1 h4 {
+    font-size: 14px;
+    line-height: 0.9rem;
+  }
+  .main-body .section-1 ul {
+    font-size: 15px;
+  }
+  .main-body .section-1 .Betrouwbaarnetwerk img {
+    width: 100%;
+  }
+  .main-body .section-2-modified {
+    margin-top: 0;
+  }
+  .main-body .section-2-modified .heading {
+    margin-bottom: 4rem;
+  }
+  .main-body .section-2-modified .vertical-space-medium {
+    margin-top: 9%;
+  }
+  .main-body .section-2-modified .card {
+    width: 70%;
+    margin: auto;
+    border: 2px solid #fff;
+  }
+  .main-body .section-2-modified .card-header {
+    border: 2px solid #fff;
+    font-size: 20px;
+    font-weight: 700;
+    height: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #f77802;
+    background: #000;
+  }
+  .main-body .section-2-modified .card-body {
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 40px 10px 10px;
+    color: #000;
+    text-align: justify;
+  }
+  .main-body .section-2-modified .learn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .main-body .section-2-modified .learn-more h3 {
+    font-size: 16px;
+    text-align: right;
+  }
+  .main-body .section-2-modified .learn-more .row-margin {
+    margin-left: -6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-body .section-2-modified .learn-more .arrow-forward {
+    width: 100%;
+    height: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+  .main-body .section-3 .heading {
+    padding: 0 5px;
+  }
+  .main-body .section-3 .heading h2 {
+    font-size: 16.5px;
+  }
+  .main-body .section-3 .grid-image {
+    width: 70%;
+  }
+  .main-body .section-3 .heading-orange-werket {
+    font-size: 14px;
+  }
+  .main-body .section-4 .learn-more-grid {
+    padding: 1.5rem 0 0.5rem;
+  }
+  .main-body .section-4 h2 {
+    font-size: 18px;
+  }
+  .main-body .section-4 .learn-more .text-margin {
+    margin-left: 0.2rem;
+  }
+  .main-body .section-4 .learn-more .arrow-forward {
+    width: 10px;
+    height: 14px;
+    margin-top: 1px;
+  }
+  .main-body .new-section .capsule-padding-new {
+    padding: 2rem 0;
+  }
+  .main-body .new-section .text-and-arrow-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-body .new-section .text-and-arrow-new .row-margin {
+    margin: auto;
+  }
+  .main-body .new-section .text-and-arrow-new h3 {
+    font-size: 18px;
+  }
+  .main-body .new-section .orange-border-new {
+    border: 4px solid #f77802;
+    padding: 22px 5px;
+    color: #fff;
+    background: #f77802;
+    border-radius: 20px;
+  }
+  .main-body .section-6 .padding-title {
+    padding: 2.5rem 0 3.5rem;
+  }
+  .main-body .section-6 .padding-title-2 {
+    padding: 2.5rem 0 2rem 0.7rem;
+  }
+  .main-body .section-6 .padding-body {
+    padding-left: 1rem;
+  }
+  .main-body .section-6 .padding-body h3 {
+    font-size: 11px;
+  }
+  .main-body .section-6 .padding-list {
+    padding-top: 3rem;
+    padding-left: 0;
+    margin-left: -2rem;
+  }
+  .main-body .section-6 h1 {
+    font-size: 17.5px;
+  }
+  .main-body .section-6 h2 {
+    font-size: 14.5px;
+  }
+  .main-body .section-6 h3 {
+    font-size: 11px;
+  }
+  .main-body .section-6 ul {
+    font-size: 15px;
+  }
+  .main-body .section-6 h4 {
+    font-size: 19px;
+    line-height: 0.9;
+  }
+  .main-body .section-6 .card {
+    border: 3px solid #fff;
+  }
+  .main-body .section-6 .card-header {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .main-body .section-6 .card-body {
+    font-size: 18px;
+    padding: 0 10px 20px 0;
+    height: 4rem;
+  }
+  .main-body .section-6 .card1-body-padding {
+    padding-left: 3rem;
+  }
+  .main-body .section-6 .card2-body-padding {
+    padding-left: 2.3rem;
+  }
+  .main-body .section-6 .card3-body-padding {
+    padding-top: 0;
+    padding-left: 2.6rem;
+  }
+  .main-body .section-6 .capsule-padding {
+    padding: 3rem 0;
+  }
+  .main-body .section-6 .text-and-arrow h3 {
+    font-size: 23px;
+  }
+  .main-body .section-6 .orange-border {
+    border: 4px solid #f77802;
+    padding: 11px 13px 7px;
+  }
+  .main-body .section-6 .orange-arrow {
+    width: 85px;
+    height: 70px;
+    margin-top: -50px;
+    margin-left: -8px;
+  }
+}
+
+/*# sourceMappingURL=/Home.3729edcb.css.map */

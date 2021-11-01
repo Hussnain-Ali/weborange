@@ -1,0 +1,43 @@
+html {
+  background: #000;
+}
+.navbar-body,
+html {
+  font-family: Helvetica !important;
+  color: #fff;
+}
+.navbar-body {
+  overflow: hidden;
+  background: #000 !important;
+}
+.navbar-body .logo-image {
+  width: 220px;
+  height: 185px;
+  padding: 10px 25px;
+  margin: 100px 0 5px 180px;
+}
+@media only screen and (min-width: 768px) and (max-width: 850px) {
+  .navbar-body .logo-image {
+    margin: 50px 0 5px 55px;
+    width: 35%;
+    height: 30%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .navbar-body .logo-image {
+    margin: 5px 0;
+    width: 45%;
+    height: 20%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .navbar-body .logo-image {
+    margin: 80px 0 5px 110px;
+    width: 40%;
+    height: 30%;
+  }
+}
+/*# sourceMappingURL=/Header.36d65cc3.css.map */
+
+
+
